@@ -1,0 +1,27 @@
+section#workouts-list {
+  background-color: #000;
+
+  div#workouts-list-particles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  div#workouts-list-grid {
+    padding: 100px;
+
+    div#workouts-list-header-container {
+      text-align: center;
+      
+      h2 {
+        font-size: 50px;
+      }
+    }
+
+    div#workouts-slider-container {
+      margin-top: 30px;
+    }
+  }
+}

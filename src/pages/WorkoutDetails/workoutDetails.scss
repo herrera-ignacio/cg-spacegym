@@ -1,0 +1,51 @@
+section#workout-details {
+  background-color: #000;
+
+  div#workouts-list-particles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  div#workout-details-grid {
+    text-align: center;
+    padding: 40px;
+
+    video {
+      z-index: 1;
+      padding: 40px 0;
+    }
+
+    h2 {
+      font-size: 24px;
+
+      @media (min-width: 768px) {
+        font-size: 36px;
+      }
+    }
+
+    div#workout-details-info {
+      p#workout-details-info-description {
+        font-size: 16px;
+
+        @media (min-width: 768px) {
+          font-size: 18px;
+        }
+
+        @media (min-width: 1024px) {
+          font-size: 24px;
+        }
+      }
+
+      span {
+        font-size: 14px;
+
+        @media (min-width: 576px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

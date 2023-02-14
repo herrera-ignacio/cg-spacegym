@@ -1,0 +1,32 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span, p, svg, a, h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+  font-size: 32px;
+  color: #fff;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}

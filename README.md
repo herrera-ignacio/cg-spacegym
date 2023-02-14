@@ -6,6 +6,10 @@
 - Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable).
 - Install dependencies with `yarn install`.
 
+### Configure workouts
+
+You can manage workouts by modifying `src/workouts.json`. Be aware of the existing interface in `src/entities/Workout.ts`.
+
 ## Available Scripts
 
 - `yarn start`: Run app in development mode. See [http://localhost:3000](http://localhost:3000).
@@ -40,3 +44,17 @@ __Your app should include the following:__
 - It goes without saying, but please document how to run/access your application.
 - tests are great!
 - What features you decide to add is entirely up to you based on your assessment of how to make the application helpful to the end-user, as well as the time limitation.
+
+## Assumptions and decisions
+
+- Workout duration is in minutes.
+- impactTag is ignored because I was unsure about its intent.
+- Bootstrap was used for faster UI layout.
+- I'd prefer using Badges for tags (level & impact) but didn't have enough time.
+- No need for navbar/footer.
+- No need for terms & conditions, privacy policy.
+- No need for SEO optimization (thus Next.JS or Gatsby were discareded).
+- No need for loaders/spinners because nothing is asynchronous.
+- Not enough time for unit testing. I'd prioritize testing hooks and components with side effects.
+- No enough time for storybook. It'd strongly recommended if building a reusable components library.
+- ESlint was added with airbnb preset and accessibility addon.
